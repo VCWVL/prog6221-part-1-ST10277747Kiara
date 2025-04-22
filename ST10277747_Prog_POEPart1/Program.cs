@@ -86,3 +86,17 @@ namespace ST10277747_Prog_POEPart1
         }
     }
 }
+
+/*
+ * Dev Details:
+  
+ * Name: Kiara Israel
+ * Student Number: ST10277747
+ * Module: PROG6221
+ 
+ 
+
+ Reference:
+
+ Smith, J., 2022. *Developing intelligent chatbots using C#*. Cambridge: Anglia Tech Publishers.
+ */

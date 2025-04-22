@@ -15,14 +15,14 @@ namespace ST10277747_Prog_POEPart1
                 new List<string> {
                     "Use firewalls to monitor incoming and outgoing traffic.",
                     "Keep software updated to patch security vulnerabilities.",
-                    "Use encryption to protect sensitive data." }, ConsoleColor.Cyan) },
+                    "Use encryption to protect sensitive data." }, ConsoleColor.Green) },
 
             { new List<string> { "common cyberattacks", "types of attacks", "examples of cyberattacks" },
                 ("Common cyberattacks:\n- Phishing\n- Ransomware\n- Malware\n- DDoS attacks",
                 new List<string> {
                     "Phishing: fake emails designed to steal sensitive information.",
                     "Ransomware: software that locks files and demands payment for release.",
-                    "DDoS: Distributed Denial of Service, an attack that floods servers with traffic to crash them." }, ConsoleColor.Magenta) },
+                    "DDoS: Distributed Denial of Service, an attack that floods servers with traffic to crash them." }, ConsoleColor.Green) },
 
             { new List<string> { "phishing" },
                 ("Phishing tricks users into giving info through fake emails or links.",
@@ -36,35 +36,35 @@ namespace ST10277747_Prog_POEPart1
                 new List<string> {
                     "Backup data regularly to avoid losing important files.",
                     "Use antivirus software to detect ransomware threats.",
-                    "Never pay the ransom, as it may encourage further attacks." }, ConsoleColor.Red) },
+                    "Never pay the ransom, as it may encourage further attacks." }, ConsoleColor.Green) },
 
             { new List<string> { "malware" },
                 ("Malware is malicious software designed to harm or exploit devices, networks, or users.",
                 new List<string> {
                     "Install antivirus software to detect and remove malware.",
                     "Avoid downloading unknown files or software from untrusted sources.",
-                    "Keep your operating system and applications updated to patch security holes." }, ConsoleColor.DarkRed) },
+                    "Keep your operating system and applications updated to patch security holes." }, ConsoleColor.Green) },
 
             { new List<string> { "protect", "hackers", "secure my computer" },
                 ("Protect your computer:\n- Install antivirus\n- Update software\n- Use strong passwords\n- VPN and firewalls",
                 new List<string> {
                     "Use a VPN to protect your privacy when browsing online.",
                     "Update your operating system to prevent vulnerabilities.",
-                    "Antivirus software helps prevent and remove threats." }, ConsoleColor.Yellow) },
+                    "Antivirus software helps prevent and remove threats." }, ConsoleColor.Green) },
 
             { new List<string> { "firewall" },
                 ("A firewall filters network traffic and blocks unauthorized access.",
                 new List<string> {
                     "Block unwanted traffic that could be malicious.",
                     "Update firewall settings regularly to enhance security.",
-                    "Consider using hardware firewalls for better protection." }, ConsoleColor.Blue) },
+                    "Consider using hardware firewalls for better protection." }, ConsoleColor.Green) },
 
             { new List<string> { "vpn" },
                 ("A VPN hides your IP address and encrypts your internet traffic for privacy.",
                 new List<string> {
                     "Use a VPN when connected to public Wi-Fi networks.",
                     "Choose a trusted VPN provider that doesn't log your activity.",
-                    "A VPN encrypts your traffic, making it harder for hackers to intercept." }, ConsoleColor.Gray) },
+                    "A VPN encrypts your traffic, making it harder for hackers to intercept." }, ConsoleColor.Green) },
         };
 
         public string GenerateAnswer(string userQuestion, string userName)
