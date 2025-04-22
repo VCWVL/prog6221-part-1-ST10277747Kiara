@@ -42,7 +42,10 @@ namespace ST10277747_Prog_POEPart1
             return char.ToUpper(name[0]) + name.Substring(1).ToLower();
         }
 
-
+        // Method to generate answer
+        public string GenerateAnswer(string question)
+        {
+            return _chatbot.GenerateAnswer(question, Name);
+        }
     }
-
 }

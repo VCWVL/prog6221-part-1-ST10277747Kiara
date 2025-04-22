@@ -77,7 +77,11 @@ namespace ST10277747_Prog_POEPart1
                     break;
                 }
 
-                
+                string response = chatbotInterface.GenerateAnswer(userQuestion);
+                if (!string.IsNullOrWhiteSpace(response))
+                {
+                    Console.WriteLine($"\nChatbot: {response}");
+                }
             }
         }
     }
