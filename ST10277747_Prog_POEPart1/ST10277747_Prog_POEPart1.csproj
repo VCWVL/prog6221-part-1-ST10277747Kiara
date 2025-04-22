@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ElevenLabs_Text_to_Speech_audio.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ElevenLabs_Text_to_Speech_audio.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="9.0.4" />
+  </ItemGroup>
+
 </Project>
